@@ -87,3 +87,48 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+
+/* HEADER  */
+.site-header {
+  background-color: #fff;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+}
+
+.site-header-logo-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.site-header-logo-text {
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 800;
+}
+
+.button {
+  border: 0;
+  background-color: transparent;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn-img {
+  margin-right: 8px;
+}
+
+.btn-text {
+  font-size: 16px;
+  text-transform: capitalize;
+}
